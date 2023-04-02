@@ -305,24 +305,33 @@
             <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> (27)99975-9221</div>
             <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> rodrigodil@live.com</div>
           </div>
-          <div class="mt-5 d-print-none"><form action="https://formspree.io/f/meqwrrgr"
-    method="POST">
+
+          <div class="mt-5 d-print-none">
+          
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/meqwrrgr" method="post">
+    
   <div class="form-outline mb-4">
-    <input type="text" id="name" class="form-control" required/>
-    <label class="form-label" for="name">Nome</label>
+    <input type="text" name="name" id="full-name" class="form-control" required/>
+    <label class="form-label" for="full-name">Nome</label>
   </div>
+
   <div class="form-outline mb-4">
-    <input type="email" id="email" class="form-control" required/>
+    <input type="email" id="email-address" class="form-control" required/>
     <label class="form-label" for="email">Endereço de Email</label>
   </div>
+  
   <div class="form-outline mb-4">
     <textarea class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
     <label class="form-label" for="message">Mensagem</label>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </div>
+
   <button class="btn btn-info btn-block mb-4" type="submit">Enviar mensagem =D</button>
 </form>
           </div>
-        </div>
+
+
+          </div>
         <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1892.7509957792508!2d-40.21135244493491!3d-18.415503145933343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb59a13b84351db%3A0xda5528b2c5f91ee0!2sRua%20Dr.%20Lobato%2C%201099%20-%20Centro%2C%20Pinheiros%20-%20ES%2C%2029980-000!5e0!3m2!1spt-BR!2sbr!4v1679762006112!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe></div>
       </div>
     </div>
